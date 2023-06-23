@@ -35,7 +35,7 @@ You can use external resources as long as you mark them: “ // taken from: <URL
 All elements must be present in the documentation.
 
 # References
-/api/message -> "Everything works as expected" \\
+/api/message -> "Everything works as expected" \n
 /api/message/set?m=Service+checks:+No+power+until+5:00+pm -> "ok" \\
 /api/message -> "Service checks: No power until 5:00 pm"
 /api/message/reset -> "ok" 
