@@ -21,5 +21,9 @@ public class MaintenanceController {
         return "ok";
     }
 
-
+    @RequestMapping("/api/message/reset")
+    public String resetMessage (){
+        mm.setMessage("Everything works as expected");
+        return "ok";
+    }
 }
