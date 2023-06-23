@@ -8,11 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MaintenanceController {
 
-    static Monitor mm = new Monitor();
+    Monitor mm = new Monitor();
 
     @RequestMapping("/api/message")
-    public static String getMessage (){
+    public String getMessage (){
         return mm.getMessage();
     }
+
+    @RequestMapping("api/message/set")
+    public String setMessage (@RequestParam String m){
+        mm.setMessage(m);
+        return "ok";
+    }
+
 
 }
