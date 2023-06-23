@@ -9,9 +9,10 @@ A team of max 3 members should implement a REST-based application in Java (using
 - deliver the message to a client <br />
 - set it to a specific message <br />
 - reset the message <br />
+
 using its API. <br />
 
-#Requirements
+# Requirements
 Use GitHub for the project and follow the correct DevOps procedure. Use a Kanban board to manage your User Stories and use a git branching model (preferable gitflow) to manage your code. Track your development process by updating your Kanban board and write at least one unit tests for every requirement. A Continuous Integration pipeline that produces the finished software artifact should be implemented as well.
 
 Document<br />
@@ -19,7 +20,7 @@ Document<br />
 - the whole process<br />
 - the user stories<br />
 - the repository URL (it has to be public)<br />
-- the usage of the software<br />
+- the usage of the software<br /> 
 in a PDF file with screenshots and explanatory text. Submit the code (including the .git folder) as a .zip file.<br />
 
 You can use external resources as long as you mark them: “ // taken from: <URL> ”<br />
