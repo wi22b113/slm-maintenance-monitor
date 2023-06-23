@@ -34,9 +34,8 @@ You can use external resources as long as you mark them: “ // taken from: <URL
 10% Continuous Delivery (Pipeline Artifact)
 All elements must be present in the documentation.
 
-References
-/api/message                                                                                       -> "Everything works as expected"
-/api/message/set?m=Service+checks:+No+power+until+5:00+pm  -> "ok"
-/api/message                                                                                       -> "Service checks: No power until 5:00 pm"
-/api/message/reset                                                                              -> "ok"
-/api/message 
+# References
+/api/message -> "Everything works as expected" \\
+/api/message/set?m=Service+checks:+No+power+until+5:00+pm -> "ok" \\
+/api/message -> "Service checks: No power until 5:00 pm"
+/api/message/reset -> "ok" 
